@@ -1,4 +1,5 @@
-
+data/HARPT.csv
+data/mychart_reviews.csv
 # API keys and secrets
 .env
 .env.*
