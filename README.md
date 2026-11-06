@@ -162,6 +162,48 @@ HealthTrust-Watch/
 
 The repository will be updated incrementally throughout Phase II and Phase III.
 
+## How to Run the Phase II Analysis
+
+### Prerequisites
+
+- Python 3 and pip
+- Git
+- VS Code with the Python and Jupyter extensions, or Jupyter Notebook
+- Access to the original HARPT dataset
+
+### Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/sahaiml149/HealthTrust-Watch.git
+cd HealthTrust-Watch
+```
+
+2. Install the project dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+3. Obtain the original HARPT dataset and place it at:
+
+```text
+data/HARPT.csv
+```
+
+4. Open `notebooks/ProjectphaseII.ipynb` in VS Code or Jupyter.
+
+5. Select the Python environment where the dependencies were installed and run all notebook cells from the beginning.
+
+### Data Availability
+
+The full HARPT dataset is excluded from the public repository. The `data/` directory contains sample data and documentation. The original dataset must be obtained separately to reproduce the complete Phase II analysis.
+
+### Reproducibility Notes
+
+The notebook supports relative dataset paths from the repository root or the `notebooks/` directory. Claude API integration is not required to reproduce Phase II results.
+
 ## 9. Project Status
 
 **Current stage:** Phase II — Development and Exploratory Analysis
