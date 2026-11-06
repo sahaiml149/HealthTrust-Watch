@@ -45,6 +45,29 @@ The project will evaluate missing values, duplicate records, review-text quality
 
 Existing trust-related annotations will not be treated as unquestioned ground truth. The original review text will serve as the primary source of evidence.
 
+### Phase II Dataset Preparation Results
+
+The original HARPT dataset contains 480,450 reviews
+across 67 digital health applications.
+
+For this project, we selected 93,392 MyChart reviews.
+
+After removing 46 reviews with missing or unusable
+review text, the cleaned dataset contains 93,346 reviews.
+
+| Dataset Stage | Number of Reviews |
+|---|---:|
+| Original HARPT dataset | 480,450 |
+| MyChart subset | 93,392 |
+| Removed during cleaning | 46 |
+| Final cleaned MyChart dataset | 93,346 |
+
+The cleaned dataset retains approximately 99.95%
+of the original MyChart subset.
+
+The full HARPT dataset is excluded from the public
+GitHub repository and must be obtained separately.
+
 ## 4. Research Questions
 
 1. What user-reported concerns occur most frequently in MyChart reviews?
