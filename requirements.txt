@@ -4,6 +4,7 @@ matplotlib
 seaborn
 scikit-learn
 nltk
+vaderSentiment
 wordcloud
 jupyter
 ipykernel

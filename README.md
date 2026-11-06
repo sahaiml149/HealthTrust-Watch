@@ -45,6 +45,29 @@ The project will evaluate missing values, duplicate records, review-text quality
 
 Existing trust-related annotations will not be treated as unquestioned ground truth. The original review text will serve as the primary source of evidence.
 
+### Phase II Dataset Preparation Results
+
+The original HARPT dataset contains 480,450 reviews
+across 67 digital health applications.
+
+For this project, we selected 93,392 MyChart reviews.
+
+After removing 46 reviews with missing or unusable
+review text, the cleaned dataset contains 93,346 reviews.
+
+| Dataset Stage | Number of Reviews |
+|---|---:|
+| Original HARPT dataset | 480,450 |
+| MyChart subset | 93,392 |
+| Removed during cleaning | 46 |
+| Final cleaned MyChart dataset | 93,346 |
+
+The cleaned dataset retains approximately 99.95%
+of the original MyChart subset.
+
+The full HARPT dataset is excluded from the public
+GitHub repository and must be obtained separately.
+
 ## 4. Research Questions
 
 1. What user-reported concerns occur most frequently in MyChart reviews?
@@ -61,9 +84,9 @@ These questions support decisions related to product improvement, technical inve
 
 The project focuses on identifying and describing patterns in existing user reviews. It does not attempt to predict future failures, classify incoming reviews as an operational early-warning system, or establish causal relationships between application releases and user complaints.
 
-### Phase II: Development and Exploratory Analysis
+### Phase II: Completed Development and Exploratory Analysis
 
-Planned activities include:
+Completed analyses include::
 
 - Dataset quality and feasibility audit
 - Descriptive statistics and missing-value analysis
@@ -138,6 +161,48 @@ HealthTrust-Watch/
 ```
 
 The repository will be updated incrementally throughout Phase II and Phase III.
+
+## How to Run the Phase II Analysis
+
+### Prerequisites
+
+- Python 3 and pip
+- Git
+- VS Code with the Python and Jupyter extensions, or Jupyter Notebook
+- Access to the original HARPT dataset
+
+### Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/sahaiml149/HealthTrust-Watch.git
+cd HealthTrust-Watch
+```
+
+2. Install the project dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+3. Obtain the original HARPT dataset and place it at:
+
+```text
+data/HARPT.csv
+```
+
+4. Open `notebooks/ProjectphaseII.ipynb` in VS Code or Jupyter.
+
+5. Select the Python environment where the dependencies were installed and run all notebook cells from the beginning.
+
+### Data Availability
+
+The full HARPT dataset is excluded from the public repository. The `data/` directory contains sample data and documentation. The original dataset must be obtained separately to reproduce the complete Phase II analysis.
+
+### Reproducibility Notes
+
+The notebook supports relative dataset paths from the repository root or the `notebooks/` directory. Claude API integration is not required to reproduce Phase II results.
 
 ## 9. Project Status
 
