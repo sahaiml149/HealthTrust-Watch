@@ -61,9 +61,9 @@ These questions support decisions related to product improvement, technical inve
 
 The project focuses on identifying and describing patterns in existing user reviews. It does not attempt to predict future failures, classify incoming reviews as an operational early-warning system, or establish causal relationships between application releases and user complaints.
 
-### Phase II: Development and Exploratory Analysis
+### Phase II: Completed Development and Exploratory Analysis
 
-Planned activities include:
+Completed analyses include::
 
 - Dataset quality and feasibility audit
 - Descriptive statistics and missing-value analysis
