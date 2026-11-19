@@ -1,0 +1,4 @@
+sample_id,technical_reliability,medical_record_access,usability_accessibility,customer_support,data_accuracy_sync,privacy_data_control,input_tokens,output_tokens
+1,0,0,0,0,0,0,515,72
+2,0,0,0,0,0,0,600,385
+3,0,0,1,0,1,0,533,249

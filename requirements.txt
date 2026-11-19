@@ -9,3 +9,5 @@ wordcloud
 jupyter
 ipykernel
 nbconvert
+anthropic
+python-dotenv
