@@ -27,3 +27,18 @@ Thumbs.db
 # Logs and temporary files
 *.log
 *.tmp
+
+data/annotations/
+# Full-corpus review-level predictions (may contain review text)
+results/full_corpus_rule_predictions.csv
+
+# Private review-level evaluation data
+results/claude_30_review_spotcheck.csv
+results/claude_30_review_disagreements.csv
+results/claude_30_review_verification.csv
+results/human_reference_120.csv
+results/model_error_examples.csv
+results/rule_baseline_v1_predictions.csv
+
+# Private evaluation backups
+results/*.private.csv

@@ -1,0 +1,13 @@
+model,category,TP,FP,FN,TN,total_errors
+Rule-based,technical_reliability,9,3,14,94,17
+Claude,technical_reliability,18,3,5,94,8
+Rule-based,medical_record_access,3,2,10,105,12
+Claude,medical_record_access,11,12,2,95,14
+Rule-based,usability_accessibility,6,0,21,93,21
+Claude,usability_accessibility,16,2,11,91,13
+Rule-based,customer_support,0,0,3,117,3
+Claude,customer_support,1,1,2,116,3
+Rule-based,data_accuracy_sync,0,0,13,107,13
+Claude,data_accuracy_sync,10,5,3,102,8
+Rule-based,privacy_data_control,0,0,0,120,0
+Claude,privacy_data_control,0,1,0,119,1

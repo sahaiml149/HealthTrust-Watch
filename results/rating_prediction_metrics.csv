@@ -1,0 +1,5 @@
+model,split,accuracy,f1_low_rating
+Majority-class baseline,Train,0.8320209973753281,0.0
+Majority-class baseline,Test,0.8620782003213712,0.0
+TF-IDF + Logistic Regression,Train,0.9249022443623118,0.8133280074562279
+TF-IDF + Logistic Regression,Test,0.9244777718264595,0.7714007782101168

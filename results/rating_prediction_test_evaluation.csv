@@ -1,0 +1,3 @@
+model,accuracy,precision_low_rating,recall_low_rating,f1_low_rating
+Majority-class baseline,0.8620782003213712,0.0,0.0,0.0
+TF-IDF + Logistic Regression,0.9244777718264595,0.662120790425828,0.9238834951456311,0.7714007782101168

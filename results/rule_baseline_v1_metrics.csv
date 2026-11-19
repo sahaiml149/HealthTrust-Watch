@@ -1,0 +1,7 @@
+Category,Precision,Recall,F1,TP,FP,FN,TN
+technical_reliability,0.75,0.391304347826087,0.5142857142857142,9,3,14,94
+medical_record_access,0.6,0.23076923076923078,0.3333333333333333,3,2,10,105
+usability_accessibility,1.0,0.2222222222222222,0.36363636363636365,6,0,21,93
+customer_support,0.0,0.0,0.0,0,0,3,117
+data_accuracy_sync,0.0,0.0,0.0,0,0,13,107
+privacy_data_control,0.0,0.0,0.0,0,0,0,120

@@ -217,3 +217,39 @@ The project documentation, code, and results will be updated as development prog
 ## 10. Project Goal
 
 The final objective is to develop a reproducible, interpretable NLP analysis of MyChart user reviews that helps digital health stakeholders understand recurring user concerns, investigate historical patterns, and identify areas that may benefit from further product or service improvements.
+
+
+
+## Final Project: HealthTrust Watch
+
+HealthTrust Watch analyzes MyChart app reviews to identify
+patient-reported technical, usability, and medical-record
+access concerns.
+
+### Key Findings
+- 93,346 cleaned reviews were analyzed.
+- Technical reliability was the most frequently flagged concern,
+  appearing in 3,321 reviews.
+- Technical concerns were approximately 18.9 times more common
+  in low-rated reviews than in high-rated reviews.
+- Claude achieved a macro F1 score of 0.651 compared with
+  0.242 for the rule-based baseline.
+- A random 30-review verification achieved 95% per-label
+  agreement and 76.67% exact-review agreement.
+
+### How to Run
+1. Install dependencies:
+   `python -m pip install -r requirements.txt`
+2. Open `notebooks/HealthTrust_Watch_Blog_Final.ipynb`.
+3. Run all cells. The final report uses saved results and
+   does not require a Claude API key.
+
+### Claude API Cost
+The documented evaluation used 63,324 input tokens and
+17,112 output tokens, costing approximately $0.148884.
+This excludes pilot calls and retries.
+
+### Reproducibility and Privacy
+Aggregated outputs and sanitized evaluation files are
+included in the repository. Private review-level data
+and API credentials are excluded.

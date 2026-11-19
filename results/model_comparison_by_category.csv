@@ -1,0 +1,13 @@
+category,model,precision,recall,f1,human_positives
+technical_reliability,Rule-based,0.75,0.391304347826087,0.5142857142857142,23
+technical_reliability,Claude,0.8571428571428571,0.782608695652174,0.8181818181818182,23
+medical_record_access,Rule-based,0.6,0.23076923076923078,0.3333333333333333,13
+medical_record_access,Claude,0.4782608695652174,0.8461538461538461,0.6111111111111112,13
+usability_accessibility,Rule-based,1.0,0.2222222222222222,0.36363636363636365,27
+usability_accessibility,Claude,0.8888888888888888,0.5925925925925926,0.7111111111111111,27
+customer_support,Rule-based,0.0,0.0,0.0,3
+customer_support,Claude,0.5,0.3333333333333333,0.4,3
+data_accuracy_sync,Rule-based,0.0,0.0,0.0,13
+data_accuracy_sync,Claude,0.6666666666666666,0.7692307692307693,0.7142857142857143,13
+privacy_data_control,Rule-based,0.0,0.0,0.0,0
+privacy_data_control,Claude,0.0,0.0,0.0,0
